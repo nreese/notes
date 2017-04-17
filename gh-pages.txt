@@ -1,0 +1,5 @@
+etting up gh-pages
+1) Make fresh clone of repo
+2) git checkout --orphan gh-pages
+3) git rm --cached -r .
+4) remove untracked files
