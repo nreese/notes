@@ -1,0 +1,4 @@
+//https://robots.thoughtbot.com/keeping-a-github-fork-updated
+git fetch upstream
+git rebase upstream/master
+git push origin {branch name} -f
