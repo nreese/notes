@@ -1,0 +1,1 @@
+grep -rl --exclude-dir=node_modules "search text" .
