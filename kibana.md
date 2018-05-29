@@ -13,3 +13,8 @@ gunzip -k data.json.gz
 // pack functional test archives
 gzip data.json
 ```
+
+```shell
+// build docs
+docs/build_docs.pl --doc ./kibana/docs/index.asciidoc --resource=./kibana/x-pack/docs/ --chunk 1 --open
+```
