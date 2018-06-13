@@ -2,7 +2,7 @@
 ```
 git fetch upstream
 git rebase upstream/master
-git pull upstream master
+git pull upstream master // prefer pull verse rebase so merge is in commit history
 // git push origin {branch name} -f
 ```
 
