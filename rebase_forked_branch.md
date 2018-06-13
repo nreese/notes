@@ -2,7 +2,8 @@
 ```
 git fetch upstream
 git rebase upstream/master
-git push origin {branch name} -f
+git pull upstream master
+// git push origin {branch name} -f
 ```
 
 ### timestamps
