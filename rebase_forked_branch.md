@@ -1,9 +1,16 @@
 [keeping-a-github-fork-updated](https://robots.thoughtbot.com/keeping-a-github-fork-updated)
 ```
 git fetch upstream
-// git rebase upstream/master
-pull upstream master // prefer pull verse rebase so merge is in commit history
+git rebase upstream/master
 git push origin {branch name} -f
+```
+
+Using pull has an advantage in that the commit history is preserved
+
+```
+git fetch upstream
+git pull upstream master
+git push origin {branch name}
 ```
 
 ### timestamps
