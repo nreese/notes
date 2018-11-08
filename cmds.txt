@@ -1,1 +1,1 @@
-grep -rl --exclude-dir=node_modules "search text" .
+grep -rl --exclude-dir=node_modules --exclude-dir=.es --exclude-dir=.git --exclude-dir=.node_binaries --exclude-dir=data --exclude-dir=optimize "search text" .
