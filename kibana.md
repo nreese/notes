@@ -18,3 +18,15 @@ gzip data.json
 // build docs
 docs/build_docs.pl --doc ./kibana/docs/index.asciidoc --resource=./kibana/x-pack/docs/ --chunk 1 --open
 ```
+
+```
+// Query for saved objects
+GET .kibana/_search
+{
+ "query": {
+   "match": {
+     "type": "index-pattern"
+   }
+ }
+}
+```
