@@ -30,3 +30,6 @@ GET .kibana/_search
  }
 }
 ```
+
+// run tslint on file
+`yarn tslint relative/path/to/file`
