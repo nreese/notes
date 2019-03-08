@@ -2,7 +2,7 @@
 ```
 git fetch upstream
 git rebase upstream/master
-git push origin {branch name} -f
+git push origin {branch_name} -f
 ```
 
 Using pull has an advantage in that the commit history is preserved
@@ -10,7 +10,12 @@ Using pull has an advantage in that the commit history is preserved
 ```
 git fetch upstream
 git pull upstream master
-git push origin {branch name}
+git push origin {branch_name}
+```
+
+Revert branch to origin
+```
+git reset --hard origin/{branch_name}
 ```
 
 ### Fix branch after messed up merge/rebase
