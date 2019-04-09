@@ -33,3 +33,8 @@ GET .kibana/_search
 
 // run tslint on file
 `yarn tslint relative/path/to/file`
+
+```
+// preserve ES data in folder
+yarn es snapshot -E path.data=../data
+```
