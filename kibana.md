@@ -39,7 +39,12 @@ GET .kibana/_search
 yarn es snapshot -E path.data=../data
 ```
 
-// fix localization
+
 ```
+// fix localization
 node scripts/i18n_check.js --fix
+```
+
+```
+yarn es snapshot -E "xpack.security.enabled=false"
 ```
