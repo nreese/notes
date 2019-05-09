@@ -38,3 +38,8 @@ GET .kibana/_search
 // preserve ES data in folder
 yarn es snapshot -E path.data=../data
 ```
+
+// fix localization
+```
+node scripts/i18n_check.js --fix
+```
