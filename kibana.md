@@ -48,3 +48,7 @@ node scripts/i18n_check.js --fix
 ```
 yarn es snapshot -E "xpack.security.enabled=false"
 ```
+
+```
+node scripts/update_prs 38366
+```
