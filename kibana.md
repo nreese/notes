@@ -52,3 +52,8 @@ yarn es snapshot -E "xpack.security.enabled=false"
 ```
 node scripts/update_prs 38366
 ```
+
+```
+// auto correct prettier
+node_modules/.bin/eslint --cache '{src,src-docs,src-framer}/**/*.{ts,tsx,js}' --fix
+```
