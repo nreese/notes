@@ -60,3 +60,13 @@ node_modules/.bin/eslint --cache '{src,src-docs,src-framer}/**/*.{ts,tsx,js}' --
 // this is faster
 yarn lint-fix
 ```
+
+```
+// run visual regression tests
+// from x-pack folder
+// set PERCY_TOKEN env to percy key before commands will work
+
+node scripts/functional_tests_server --config test/visual_regression/config.js
+
+yarn run percy exec node ../scripts/functional_test_runner --config test/visual_regression/config.js --grep=""
+```
