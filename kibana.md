@@ -1,4 +1,8 @@
 
+```
+FORCE_DLL_CREATION=true node scripts/kibana --dev
+```
+
 ```shell
 // run API functional tests
 ./node_modules/.bin/grunt test:api
