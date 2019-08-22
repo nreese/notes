@@ -54,6 +54,43 @@ yarn es snapshot -E "xpack.security.enabled=false"
 ```
 
 ```
+DELETE test
+{}
+
+PUT test
+{}
+
+PUT test/_mapping
+{
+  "properties": {
+  "@timestamp": {
+    "type": "date"
+  },
+  "location": {
+    "type": "geo_point"
+  }
+}
+}
+
+PUT test/_doc/1
+{
+    "@timestamp" : "2019-08-22T14:22:08Z",
+    "location": "25,25"
+}
+
+PUT test/_doc/2
+{
+    "location": "25,25"
+}
+
+GET test/_search
+
+GET /test/_mapping
+
+GET /test/_field_caps?fields=@timestamp
+```
+
+```
 node scripts/update_prs 38366
 ```
 
