@@ -2,6 +2,12 @@
 @elasticmachine merge upstream
 
 ```
+// ts type check
+node scripts/type_check --project=x-pack/tsconfig.json
+node scripts/type_check --project=tsconfig.json
+```
+
+```
 FORCE_DLL_CREATION=true node scripts/kibana --dev
 ```
 
