@@ -11,6 +11,10 @@ node scripts/type_check --project=tsconfig.json
 FORCE_DLL_CREATION=true node scripts/kibana --dev
 ```
 
+```
+@elasticmachine run elasticsearch-ci/docs
+```
+
 ```shell
 // run API functional tests
 ./node_modules/.bin/grunt test:api
