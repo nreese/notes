@@ -15,6 +15,10 @@ FORCE_DLL_CREATION=true node scripts/kibana --dev
 @elasticmachine run elasticsearch-ci/docs
 ```
 
+```
+yarn start --run-examples
+```
+
 ```shell
 // run API functional tests
 ./node_modules/.bin/grunt test:api
