@@ -1,3 +1,4 @@
+
 ```
 {
   $schema: https://vega.github.io/schema/vega/v5.json
