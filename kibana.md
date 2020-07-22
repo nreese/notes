@@ -127,3 +127,13 @@ node scripts/functional_tests_server --config test/visual_regression/config.js
 
 yarn run percy exec node ../scripts/functional_test_runner --config test/visual_regression/config.js --grep=""
 ```
+
+ingest script to create geo_point
+```
+{
+  "script": {
+    "lang": "painless",
+    "source": "ctx.surface_geo = [ctx.surface_lon, ctx.surface_lat]",
+  }
+}
+```
