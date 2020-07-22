@@ -133,7 +133,7 @@ ingest script to create geo_point
 {
   "script": {
     "lang": "painless",
-    "source": "ctx.surface_geo = [ctx.surface_lon, ctx.surface_lat]",
+    "source": "ctx.surface_geo = [ctx.surface_lon, ctx.surface_lat]"
   }
 }
 ```
