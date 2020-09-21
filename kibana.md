@@ -9,6 +9,12 @@ node scripts/type_check --project=tsconfig.json
 ```
 
 ```
+// build module stats
+node scripts/build_kibana_platform_plugins.js --dist --no-examples --profile
+npx webpack-bundle-analyzer src/plugins/maps_legacy/target/public/stats.json
+```
+
+```
 FORCE_DLL_CREATION=true node scripts/kibana --dev
 ```
 
