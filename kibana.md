@@ -150,3 +150,5 @@ ingest script to create geo_point
   }
 }
 ```
+
+`xattr -r -d com.apple.quarantine`
