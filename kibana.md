@@ -6,6 +6,8 @@
 rm -rf ./target && rm -rf ./src/core/target
 node scripts/type_check --project=x-pack/tsconfig.json
 node scripts/type_check --project=tsconfig.json
+
+./node_modules/.bin/tsc -b x-pack/plugins/maps
 ```
 
 ```
