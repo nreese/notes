@@ -13,17 +13,18 @@ git pull upstream master
 git push origin {branch_name}
 ```
 
-Merging via command line
+Revert branch to origin
+```
+git reset --hard origin/{branch_name}
+```
+
+### Merging via command line
+
 ```
 // Branch name: thomasneirynck:maps/tracktileloadstatus
 // username: thomasneirynck
 git checkout -b thomasneirynck-maps/tracktileloadstatus master
 git pull https://github.com/thomasneirynck/kibana.git maps/tracktileloadstatus
-```
-
-Revert branch to origin
-```
-git reset --hard origin/{branch_name}
 ```
 
 ### Fix branch after messed up merge/rebase
