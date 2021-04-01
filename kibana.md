@@ -26,6 +26,11 @@ npx webpack-bundle-analyzer src/plugins/maps_legacy/target/public/stats.json
 ```
 
 ```
+// locate the process hogging the port
+lsof -i:5601
+```
+
+```
 FORCE_DLL_CREATION=true node scripts/kibana --dev
 ```
 
