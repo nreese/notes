@@ -20,6 +20,11 @@ node scripts/functional_test_runner --config x-pack/test/api_integration/config.
 ```
 
 ```
+// view doc preview for PR
+https://kibana_95883.docs-preview.app.elstc.co/diff
+```
+
+```
 // build module stats
 node scripts/build_kibana_platform_plugins.js --dist --no-examples --profile
 npx webpack-bundle-analyzer src/plugins/maps_legacy/target/public/stats.json
