@@ -37,3 +37,8 @@ git push -f origin {branch name}
 ### timestamps
 * tag `git log -1 --format=%ai v5.5.1`
 * commit `git show -s --format=%ci 9b93fbb46af9afbfc3b7f970d8fe6b86049eeb43`
+
+### sort branches by commit time
+```
+git branch --sort=-committerdate
+```
