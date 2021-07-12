@@ -11,6 +11,10 @@ node scripts/type_check --project=tsconfig.json
 ```
 
 ```
+node scripts/precommit_hook --fix
+```
+
+```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/config.js
 node scripts/functional_test_runner --config x-pack/test/functional/config.js --debug --grep=""
