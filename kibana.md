@@ -12,6 +12,8 @@ node scripts/type_check --project=tsconfig.json
 
 ```
 node scripts/precommit_hook --fix
+
+node scripts/eslint x-pack/plugins/maps
 ```
 
 ```
