@@ -23,6 +23,9 @@ node scripts/functional_test_runner --config x-pack/test/functional/config.js --
 
 node scripts/functional_tests_server --config x-pack/test/api_integration/config.ts
 node scripts/functional_test_runner --config x-pack/test/api_integration/config.ts --debug --grep=""
+
+// load es-archives
+node scripts/es_archiver load x-pack/test/functional/es_archives/monitoring/singlecluster_green_gold --config path/to/your/ftrconfig
 ```
 
 ```
