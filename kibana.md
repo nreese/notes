@@ -19,10 +19,10 @@ node scripts/eslint x-pack/plugins/maps
 ```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/config.js
-node scripts/functional_test_runner --config x-pack/test/functional/config.js --debug --grep=""
+node scripts/functional_test_runner --config x-pack/test/functional/config.js --grep=""
 
 node scripts/functional_tests_server --config x-pack/test/api_integration/config.ts
-node scripts/functional_test_runner --config x-pack/test/api_integration/config.ts --debug --grep=""
+node scripts/functional_test_runner --config x-pack/test/api_integration/config.ts --grep=""
 
 // load es-archives
 node scripts/es_archiver load x-pack/test/functional/es_archives/monitoring/singlecluster_green_gold --config path/to/your/ftrconfig
