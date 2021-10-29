@@ -1,7 +1,7 @@
 [keeping-a-github-fork-updated](https://robots.thoughtbot.com/keeping-a-github-fork-updated)
 ```
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/main
 git push origin {branch_name} -f
 ```
 
@@ -9,7 +9,7 @@ Using pull has an advantage in that the commit history is preserved
 
 ```
 git fetch upstream
-git pull upstream master
+git pull upstream main
 git push origin {branch_name}
 ```
 
