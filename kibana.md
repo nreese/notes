@@ -17,6 +17,10 @@ node scripts/eslint x-pack/plugins/maps
 ```
 
 ```
+yarn kbn build
+```
+
+```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/config.js
 node scripts/functional_test_runner --config x-pack/test/functional/config.js --grep=""
