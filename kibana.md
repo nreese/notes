@@ -38,6 +38,12 @@ https://kibana_95883.docs-preview.app.elstc.co/diff
 ```
 
 ```
+// get telemetry
+POST kbn:api/telemetry/v2/clusters/_stats
+{ "unencrypted": true }
+```
+
+```
 // build module stats
 node scripts/build_kibana_platform_plugins.js --dist --no-examples --profile
 npx webpack-bundle-analyzer src/plugins/maps_legacy/target/public/stats.json
