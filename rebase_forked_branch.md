@@ -24,7 +24,7 @@ git reset --hard origin/{branch_name}
 // Branch name: thomasneirynck:maps/tracktileloadstatus
 // username: thomasneirynck
 git checkout -b thomasneirynck-maps/tracktileloadstatus master
-git pull https://github.com/thomasneirynck/kibana.git maps/tracktileloadstatus
+git pull https://github.com/thomasneirynck/kibana.git maps/tracktileloadstatus --rebase
 ```
 
 ### Fix branch after messed up merge/rebase
