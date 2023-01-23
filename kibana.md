@@ -23,8 +23,10 @@ yarn kbn build
 
 ```
 // Start maps functional tests
- node scripts/functional_tests_server --config x-pack/test/functional/apps/maps/group2/config.ts
+node scripts/functional_tests_server --config x-pack/test/functional/apps/maps/group2/config.ts
 node scripts/functional_test_runner --config x-pack/test/functional/apps/maps/group2/config.ts --grep=""
+
+--config test/functional/apps/dashboard/group3/config.ts
 
 node scripts/functional_tests_server --config x-pack/test/api_integration/config.ts
 node scripts/functional_test_runner --config x-pack/test/api_integration/config.ts --grep=""
