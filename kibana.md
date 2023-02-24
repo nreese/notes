@@ -29,8 +29,8 @@ node scripts/functional_test_runner --config x-pack/test/functional/apps/maps/gr
 --config test/functional/apps/dashboard/group3/config.ts
 --config x-pack/test/functional/apps/dashboard/group3/config.ts
 
-node scripts/functional_tests_server --config x-pack/test/api_integration/config.ts
-node scripts/functional_test_runner --config x-pack/test/api_integration/config.ts --grep=""
+node scripts/functional_tests_server --config x-pack/test/api_integration/apis/maps/config.ts
+node scripts/functional_test_runner --config x-pack/test/api_integration/apis/maps/config.ts --grep=""
 
 // load es-archives
 node scripts/es_archiver load x-pack/test/functional/es_archives/monitoring/singlecluster_green_gold --config path/to/your/ftrconfig
