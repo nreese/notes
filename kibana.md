@@ -42,6 +42,12 @@ https://kibana_95883.docs-preview.app.elstc.co/diff
 ```
 
 ```
+// bundle size docs
+// docs https://docs.elastic.dev/kibana-dev-docs/key-concepts/performance
+node scripts/build_kibana_platform_plugins.js --dist --profile --focus=my_plugin
+```
+
+```
 // get telemetry
 POST kbn:api/telemetry/v2/clusters/_stats
 { "unencrypted": true }
