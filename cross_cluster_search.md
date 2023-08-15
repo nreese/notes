@@ -9,12 +9,12 @@
 3. Start local elasticsearch by running: `yarn es snapshot -E path.data=../local1`
 4. Start kibana
 5. Add remote cluster under "Stack management -> Remote clusters"
-    1. Set *name* to "remote1"
-    2. Set *Seed nodes* to "localhost:9500" 
+    1. Set **Name** to "remote1"
+    2. Set **Seed nodes** to "localhost:9500" 
 5. install sample web logs data set
 6. Add remote cluster to data view
     1. Edit "Kibana Sample Data Logs" data view
-    2. Set *index pattern* to `kibana_sample_data_logs,remote1:kibana_sample_data_logs`
+    2. Set **Index pattern** to `kibana_sample_data_logs,remote1:kibana_sample_data_logs`
 
 ### Simulate errors
 1. Open sample web logs dashboard
