@@ -26,7 +26,7 @@
           {
             "name": "remote1:*",
             "error_type": "exception",
-            "message": "remove exception"
+            "message": "remote exception"
           }
         ]
       }
