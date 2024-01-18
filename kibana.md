@@ -9,6 +9,8 @@ node scripts/type_check --project=tsconfig.json
 
 // ./node_modules/.bin/tsc -b x-pack/plugins/maps - old way as of 2022-11-03
 node scripts/type_check.js --project x-pack/plugins/maps/tsconfig.json
+
+node scripts/eslint {path to file}
 ```
 
 ```
