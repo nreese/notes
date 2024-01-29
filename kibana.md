@@ -24,6 +24,20 @@ yarn kbn build
 ```
 
 ```
+{
+  "error_query": {
+    "indices": [
+      {
+        "error_type": "exception",
+        "message": "local shard failure message 123",
+        "name": "kibana_sample_data_logs"
+      }
+    ]
+  }
+}
+```
+
+```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/apps/maps/group2/config.ts
 node scripts/functional_test_runner --config x-pack/test/functional/apps/maps/group2/config.ts --grep=""
