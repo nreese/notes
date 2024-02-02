@@ -9,7 +9,7 @@ Using pull has an advantage in that the commit history is preserved
 
 ```
 git fetch upstream
-git pull upstream main --no-ff
+git merge upstream/main
 git push origin {branch_name}
 ```
 
