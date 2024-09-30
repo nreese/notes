@@ -56,6 +56,12 @@ yarn add sharp --ignore-engines
 ```
 
 ```
+// load demo data
+curl -sSL https://elastic.github.io/kibana-demo-data | sh
+curl -sSL https://elastic.github.io/kibana-demo-data | sh -s sample custom o11y
+```
+
+```
 // view doc preview for PR
 https://kibana_95883.docs-preview.app.elstc.co/diff
 ```
