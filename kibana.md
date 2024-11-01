@@ -56,6 +56,11 @@ yarn add sharp --ignore-engines
 ```
 
 ```
+// ES snapshot
+https://storage.googleapis.com/kibana-ci-es-snapshots-daily/<version>/manifest-latest-verified.json
+```
+
+```
 // load demo data
 curl -sSL https://elastic.github.io/kibana-demo-data | sh
 curl -sSL https://elastic.github.io/kibana-demo-data | sh -s sample custom o11y
