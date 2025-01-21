@@ -21,6 +21,12 @@ node scripts/eslint x-pack/plugins/maps
 ```
 
 ```
+// From kibana directry, run command to install solution data. Use -s to install data subsets
+curl -sSL https://elastic.github.io/kibana-demo-data | sh
+curl -sSL https://elastic.github.io/kibana-demo-data | sh -s sample custom o11y
+```
+
+```
 yarn kbn build
 ```
 
