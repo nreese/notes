@@ -3,6 +3,11 @@
 ```
 
 ```
+// turn on unsaved changes logging
+window.ELASTIC_PRESENTATION_LOGGER = true
+```
+
+```
 // ts type check
 rm -rf ./target && rm -rf ./src/core/target
 node scripts/type_check --project=x-pack/tsconfig.json
