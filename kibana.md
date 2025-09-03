@@ -36,6 +36,7 @@ yarn kbn build
 ```
 
 ```
+// filter pill content to cause elasticsearch query failure 
 {
   "error_query": {
     "indices": [
@@ -43,6 +44,19 @@ yarn kbn build
         "error_type": "exception",
         "message": "local shard failure message 123",
         "name": "kibana_sample_data_logs"
+      }
+    ]
+  }
+}
+
+// filter pill content to cause elasticsearch query timeout 
+{
+  "error_query": {
+    "indices": [
+      {
+        "error_type": "none",
+        "name": "kibana_sample_data_logs",
+        "stall_time_seconds": 200
       }
     ]
   }
