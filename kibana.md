@@ -17,6 +17,8 @@ node scripts/type_check --project=tsconfig.json
 node scripts/type_check.js --project x-pack/plugins/maps/tsconfig.json
 
 node scripts/eslint {path to file}
+
+yarn quick-checks
 ```
 
 ```
