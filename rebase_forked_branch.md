@@ -18,6 +18,11 @@ Revert branch to origin
 git reset --hard origin/{branch_name}
 ```
 
+```
+git fetch kibanamachine
+git checkout -b branchName kibanamachine/branchName
+```
+
 ### Merging via command line
 
 ```
