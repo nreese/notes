@@ -22,8 +22,11 @@ yarn quick-checks
 ```
 
 ```
-node scripts/precommit_hook --fix
+node scripts/build_kibana_platform_plugins --focus embeddable --update-limits
+```
 
+
+```
 node scripts/eslint x-pack/plugins/maps
 ```
 
