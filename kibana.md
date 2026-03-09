@@ -69,6 +69,13 @@ yarn kbn build
 ```
 
 ```
+// Run scout tests
+// https://www.elastic.co/docs/extend/kibana/scout/run-tests#run-tests-as-often-as-youd-like-in-a-separate-terminal
+node scripts/scout.js start-server --arch stateful --domain classic
+npx playwright test --project local --grep @local-stateful-classic --config src/platform/plugins/shared/dashboard/test/scout/api/playwright.config.ts
+```
+
+```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/apps/maps/group2/config.ts
 node scripts/functional_test_runner --config x-pack/test/functional/apps/maps/group2/config.ts --grep=""
