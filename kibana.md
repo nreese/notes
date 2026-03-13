@@ -19,8 +19,8 @@ node scripts/eslint {path to file}
 yarn quick-checks
 ```
 
-Run when PR is stuck on "buildkite/docs-build-prExpected — Waiting for status to be reported"
 ```
+// Run when PR is stuck on "buildkite/docs-build-prExpected — Waiting for status to be reported"
 run docs-build
 ```
 
