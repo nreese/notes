@@ -10,8 +10,6 @@ window.ELASTIC_PRESENTATION_LOGGER = true
 ```
 // ts type check
 rm -rf ./target && rm -rf ./src/core/target
-node scripts/type_check --project=x-pack/tsconfig.json
-node scripts/type_check --project=tsconfig.json
 
 // ./node_modules/.bin/tsc -b x-pack/plugins/maps - old way as of 2022-11-03
 node scripts/type_check.js --project x-pack/plugins/maps/tsconfig.json
@@ -19,6 +17,11 @@ node scripts/type_check.js --project x-pack/plugins/maps/tsconfig.json
 node scripts/eslint {path to file}
 
 yarn quick-checks
+```
+
+Run when PR is stuck on "buildkite/docs-build-prExpected — Waiting for status to be reported"
+```
+run docs-build
 ```
 
 ```
