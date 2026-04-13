@@ -97,6 +97,11 @@ yarn add sharp --ignore-engines
 ```
 
 ```
+// generate new package
+node scripts/generate package @kbn/dashboard-navigation-options-components --dir src/platform/packages/private/dashboard/dashboard-navigation-options-components
+```
+
+```
 // ES snapshot
 https://storage.googleapis.com/kibana-ci-es-snapshots-daily/<version>/manifest-latest-verified.json
 ```
