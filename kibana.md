@@ -77,6 +77,8 @@ yarn kbn build
 // https://www.elastic.co/docs/extend/kibana/scout/run-tests#run-tests-as-often-as-youd-like-in-a-separate-terminal
 node scripts/scout.js start-server --arch stateful --domain classic
 npx playwright test --project local --grep @local-stateful-classic --config src/platform/plugins/shared/dashboard/test/scout/api/playwright.config.ts
+  --ui // playright UI allowing you to run individual tests and show browser during each line
+  --headed // show browser
 ```
 
 ```
