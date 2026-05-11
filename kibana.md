@@ -26,6 +26,7 @@ run docs-build
 
 ```
 node scripts/build_kibana_platform_plugins --focus embeddable --update-limits
+node scripts/build_rspack_bundles --update-limits
 ```
 
 
