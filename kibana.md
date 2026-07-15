@@ -8,6 +8,11 @@ window.ELASTIC_PRESENTATION_LOGGER = true
 ```
 
 ```
+// start with configured LLMs
+yarn start --eis
+```
+
+```
 // ts type check
 rm -rf ./target && rm -rf ./src/core/target
 
