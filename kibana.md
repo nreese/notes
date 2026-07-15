@@ -9,6 +9,7 @@ window.ELASTIC_PRESENTATION_LOGGER = true
 
 ```
 // start with configured LLMs
+yarn es snapshot --eis
 yarn start --eis
 ```
 
