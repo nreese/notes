@@ -76,6 +76,8 @@ yarn kbn build
     ]
   }
 }
+
+FROM kibana_sample_data_logs | limit 1 | EVAL delay(10 seconds)
 ```
 
 ```
