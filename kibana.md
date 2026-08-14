@@ -14,6 +14,10 @@ yarn start --eis
 ```
 
 ```
+yarn start --no-base-path --mockIdpPlugin.enabled=false
+```
+
+```
 // ts type check
 rm -rf ./target && rm -rf ./src/core/target
 
