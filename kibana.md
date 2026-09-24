@@ -95,6 +95,11 @@ npx playwright test --project local --grep @local-stateful-classic --config src/
 ```
 
 ```
+// trigger scout flaky test runner
+/flaky scoutConfig:x-pack/platform/plugins/shared/maps/test/scout/ui/playwright.config.ts:25
+```
+
+```
 // Start maps functional tests
 node scripts/functional_tests_server --config x-pack/test/functional/apps/maps/group2/config.ts
 node scripts/functional_test_runner --config x-pack/test/functional/apps/maps/group2/config.ts --grep=""
