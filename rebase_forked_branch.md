@@ -35,6 +35,9 @@ git checkout -b branchName kibanamachine/branchName
 // username: thomasneirynck
 git checkout -b thomasneirynck-maps/tracktileloadstatus master
 git pull https://github.com/thomasneirynck/kibana.git maps/tracktileloadstatus --rebase
+
+git fetch https://github.com/<username>/kibana.git <branch_name>
+git checkout -B <branch_name> FETCH_HEAD
 ```
 
 ### Fix branch after messed up merge/rebase
